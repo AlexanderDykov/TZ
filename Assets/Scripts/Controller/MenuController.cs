@@ -7,7 +7,6 @@ public class MenuController : MonoBehaviour {
     public void LoadLevel(Settings settings)
     {
         SettingsManager.Instance.SaveSettings(settings);
-        SceneManager.LoadSceneAsync(1);
     }
 
     public void LoadLevel(int levelNumber)
