@@ -4,7 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class MenuController : MonoBehaviour {
 
-    public void LoadLevel(Settings settings)
+    public void AddSettingsToLevel(Settings settings)
     {
         SettingsManager.Instance.SaveSettings(settings);
     }
