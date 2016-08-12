@@ -3,7 +3,7 @@ using System.Collections;
 
 public class SettingsManager : MonoBehaviour {
 
-    static Settings settings;
+    Settings settings;
     private static SettingsManager _instance;
     public static SettingsManager Instance
     {
